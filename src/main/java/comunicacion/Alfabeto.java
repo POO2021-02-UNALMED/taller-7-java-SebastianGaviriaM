@@ -12,7 +12,7 @@ public class Alfabeto extends Pictograma {
 
 	@Override
 	public String interpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 
 	@Override

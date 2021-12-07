@@ -22,7 +22,7 @@ public class Periodico extends Escrito {
 
 	@Override
 	public String interpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 
 	@Override
