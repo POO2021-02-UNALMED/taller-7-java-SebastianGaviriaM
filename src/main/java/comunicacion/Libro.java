@@ -21,7 +21,7 @@ public class Libro extends Escrito {
 
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
-		return this.getPaginas()*palabrasPagina;
+		return this.getPaginas()*palabrasPagina*2;
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class Libro extends Escrito {
 				this.getPaginas()+"\n"+
 				this.getCo_autor()+"\n"+
 				this.getEditorial()+"\n"+
-				this.getEdicion()+"\n";
+				this.getEdicion();
 	}
 
 

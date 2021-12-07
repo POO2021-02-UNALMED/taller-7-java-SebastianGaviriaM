@@ -17,9 +17,9 @@ public class Alfabeto extends Pictograma {
 
 	@Override
 	public String toString() {
-		String cadena=letras[0];
+		String cadena=this.letras[0];
 		for(int i=1; i<this.letras.length;i++) {
-			cadena = cadena + ", " + i;			
+			cadena = cadena + ", " + letras[i];			
 		}
 		return cadena;
 	}
